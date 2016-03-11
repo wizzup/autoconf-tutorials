@@ -1,0 +1,11 @@
+Autoconf Example 2
+==================
+
+X11 example code was provided by Brian Hammond.
+
+The link to the original post was broken:
+http://people.terry.uga.edu/bhammond/XIntro
+
+But there's another copy of it located here: [Link][example]
+
+[example]: http://math.msu.su/~vvb/2course/Borisenko/CppProjects/GWindow/xintro.html
