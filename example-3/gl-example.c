@@ -1,9 +1,17 @@
 #include "config.h"
 #include <stdlib.h>
-#include <GL/glew.h>
 # if HAVE_WINDOWS_H && defined(_WIN32)
   #include <windows.h>
 # endif
+
+#ifdef HAVE_GL_GL_H
+# include <GL/gl.h>
+#elif defined(HAVE_OPENGL_GL_H)
+# include <OpenGL/gl.h>
+#else
+# error no gl.h
+#endif
+
 # if defined(HAVE_GL_GLUT_H)
 #  include <GL/glut.h>
 # elif defined(HAVE_GLUT_GLUT_H)
