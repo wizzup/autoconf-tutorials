@@ -14,7 +14,8 @@ AC_PROG_CC
 # It exports variable X_CFLAGS and X_LIBS
 AC_PATH_XTRA
 
-# If the check for X11 failed, exit the configure script with an error
+# AC_PATH_XTRA doesn't error out by default,
+# hence we need to do it manually
 AS_IF([test "X$no_x" = "Xyes"],
   [AC_MSG_ERROR([Could not find X11])])
 
