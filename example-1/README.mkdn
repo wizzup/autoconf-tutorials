@@ -1,36 +1,25 @@
-Autoconf Example 2
-==================
+Hello world program for Autoconf
+================================
 
-Demo program for [Autoconf Tutorial Part-1][part-2]
-[part-2]: http://www.idryman.org/blog/2016/03/14/autoconf-tutorial-2/
-
+Demo program for [Autoconf Tutorial Part-1][part-1]
+[part-1]: http://www.idryman.org/blog/2016/03/10/autoconf-tutorial-1/
 
 SYNOPSIS
 ---------
 
 ```bash
 autoreconf -vif # shortcut of --verbose --install --force
-# on linux
 ./configure
-# on OSX
-./configure --with-x --x-includes=/opt/X11/include/ --x-libraries=/opt/X11/lib
 make
-./x11-example
+./hello
 ```
 
-On OSX, make sure you have [XQuartz][xquartz] installed to run this program.
-
-X11 sample code is provided by Brian Hammond. The link to the [original
-program][original] was broken.  But there's another copy of it located here:
-[Link][example]
-[original]: http://people.terry.uga.edu/bhammond/XIntro
-[example]: http://math.msu.su/~vvb/2course/Borisenko/CppProjects/GWindow/xintro.html
-[xquartz]: http://www.xquartz.org
+Make sure you have autoconf, automake, and libtools installed on your system.
 
 LICENSE
 -------
 
-Copyright Brian Hammond 1996, Felix Chern 2016.
+Copyright Felix Chern 2016. 
 
 The GNU Autoconf Archive is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by the Free
