@@ -1,0 +1,3 @@
+[submodule "example-3/autoconf-archive"]
+	path = example-3/autoconf-archive
+	url = git@github.com:peti/autoconf-archive.git
