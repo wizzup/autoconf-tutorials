@@ -17,6 +17,12 @@ make
 ./gl-example
 ```
 
+Check the document for [AX_CHECK_GL][gl] and [AX_CHECK_GLUT][glut] on autoconf
+archive.
+
+[gl]: http://www.gnu.org/software/autoconf-archive/ax_check_gl.html#ax_check_gl
+[glut]: http://www.gnu.org/software/autoconf-archive/ax_check_glut.html#ax_check_glut
+
 LICENSE
 -------
 
