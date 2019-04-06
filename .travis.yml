@@ -1,0 +1,4 @@
+language: nix
+
+script:
+- for i in example*; do cd $i; echo $i; ./build.sh; cd ..; done
